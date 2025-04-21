@@ -1,0 +1,81 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BProyec EIRL</title>
+  <meta name="description" content="BProyec EIRL - Diseño de planos, construcción y venta de propiedades en Lima, Perú.">
+  <meta name="keywords" content="constructora, planos, construcción, propiedades, Lima, Perú">
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; padding: 0; line-height: 1.6; }
+    header, section, footer { padding: 20px; }
+    header { background: #003366; color: #fff; text-align: center; }
+    header h1 { margin: 0; }
+    nav { background: #00509e; color: #fff; text-align: center; padding: 10px; }
+    nav a { color: #fff; text-decoration: none; margin: 0 10px; font-weight: bold; }
+    .content { max-width: 1000px; margin: auto; padding: 20px; }
+    .services, .gallery { display: flex; flex-wrap: wrap; gap: 20px; justify-content: center; }
+    .service { flex: 1 1 calc(33.333% - 20px); box-shadow: 0 0 10px rgba(0,0,0,0.1); padding: 10px; background: #fff; }
+    .contact { background: #f4f4f4; text-align: center; }
+    .whatsapp-link { color: #25D366; font-size: 20px; font-weight: bold; text-decoration: none; }
+    footer { background: #003366; color: #fff; text-align: center; padding: 10px; }
+    img { max-width: 100%; height: auto; border-radius: 8px; }
+    form { display: flex; flex-direction: column; gap: 10px; max-width: 400px; margin: auto; padding: 20px; }
+    input, textarea, button { padding: 10px; font-size: 16px; border: 1px solid #ccc; border-radius: 5px; }
+    button { background-color: #003366; color: white; border: none; cursor: pointer; }
+    button:hover { background-color: #00509e; }
+
+    @media (max-width: 768px) {
+      .service { flex: 1 1 100%; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>BProyec EIRL</h1>
+    <p>Diseño adaptado a sus necesidades</p>
+  </header>
+
+  <section class="content">
+    <h2>Quiénes Somos</h2>
+    <p>Somos una empresa peruana especializada en la elaboración de planos, construcción de obras y venta de propiedades. Trabajamos con responsabilidad y compromiso para garantizar la satisfacción de nuestros clientes.</p>
+  </section>
+
+  <section class="content">
+    <h2>Servicios</h2>
+    <div class="services">
+      <div class="service"><h3>Diseño de Planos</h3><p>Planos arquitectónicos y estructurales para todo tipo de proyectos.</p></div>
+      <div class="service"><h3>Construcción</h3><p>Construcción de viviendas, remodelaciones y estructuras civiles.</p></div>
+      <div class="service"><h3>Venta de Propiedades</h3><p>Ofrecemos terrenos y viviendas en diversas zonas de Lima.</p></div>
+    </div>
+  </section>
+
+  <section class="content">
+    <h2>Galería</h2>
+    <div class="gallery">
+      <img src="https://via.placeholder.com/300x200?text=Proyecto+1" alt="Proyecto 1">
+      <img src="https://via.placeholder.com/300x200?text=Proyecto+2" alt="Proyecto 2">
+      <img src="https://via.placeholder.com/300x200?text=Proyecto+3" alt="Proyecto 3">
+    </div>
+  </section>
+
+  <section class="content">
+    <h2>Contáctanos</h2>
+    <p><strong>Dirección:</strong> San Martín de Porres 980, Arenal Alto, Villa María del Triunfo, Lima</p>
+    <p><strong>Correo:</strong> helonhb@gmail.com</p>
+    <p><strong>WhatsApp:</strong> <a class="whatsapp-link" href="https://wa.me/51953800684" target="_blank">953800684</a></p>
+
+    <form action="mailto:helonhb@gmail.com" method="post" enctype="text/plain">
+      <input type="text" name="name" placeholder="Nombre" required>
+      <input type="email" name="email" placeholder="Correo" required>
+      <textarea name="message" rows="5" placeholder="Mensaje" required></textarea>
+      <button type="submit">Enviar</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 BProyec EIRL. Todos los derechos reservados.</p>
+  </footer>
+</body>
+</html>
